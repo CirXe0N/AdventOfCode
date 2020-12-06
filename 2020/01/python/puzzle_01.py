@@ -11,5 +11,3 @@ with open('input.txt') as f:
     entries = list(f.read().splitlines())
     answer = calculate(entries)
     print(f'The answer is {answer}')
-
-

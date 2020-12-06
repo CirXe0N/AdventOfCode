@@ -21,5 +21,3 @@ with open('input.txt') as f:
     lines = list(f.read().splitlines())
     answer = calculate_trees_encountered(lines)
     print(f'The answer is {answer}')
-
-

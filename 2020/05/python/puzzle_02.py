@@ -42,5 +42,3 @@ with open('input.txt') as f:
     lines = list(f.read().splitlines())
     answer = determine_own_seat_id(lines)
     print(f'The answer is {answer}')
-
-

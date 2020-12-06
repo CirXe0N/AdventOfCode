@@ -38,4 +38,3 @@ with open('input.txt') as f:
 
     answer = math.prod(answers)
     print(f'The answer is {answer}')
-

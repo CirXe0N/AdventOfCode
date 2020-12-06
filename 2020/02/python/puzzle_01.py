@@ -19,5 +19,3 @@ with open('input.txt') as f:
     lines = list(f.read().splitlines())
     answer = calculate_valid_passwords(lines)
     print(f'The answer is {answer}')
-
-

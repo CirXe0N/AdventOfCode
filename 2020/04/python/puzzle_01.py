@@ -15,5 +15,3 @@ with open('input.txt') as f:
     passports = f.read().split(sep='\n\n')
     answer = count_valid_passports(passports)
     print(f'The answer is {answer}')
-
-
